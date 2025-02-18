@@ -1,5 +1,5 @@
 {
-  "name": "@kolkov/angular-editor",
+  "name": "@em/angular-editor",
   "version": "2.0.0-fix-font-modal",
   "scripts": {
     "ng": "ng",
