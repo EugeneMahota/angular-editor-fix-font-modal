@@ -33,4 +33,4 @@ deploy:
   edge: true
   on:
     tags: true
-    repo: kolkov/angular-editor
+    repo: eugenemahota/angular-editor-fix-font-modal

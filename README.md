@@ -1,15 +1,15 @@
 <p align="center">
-  <img width="150px" src="https://raw.githubusercontent.com/kolkov/angular-editor/master/docs/angular-editor-logo.png?raw=true" alt="AngularEditor logo"/>
+  <img width="150px" src="https://raw.githubusercontent.com/eugenemahota/angular-editor-fix-font-modal/master/docs/angular-editor-logo.png?raw=true" alt="AngularEditor logo"/>
 </p>
 
 # AngularEditor
 [![npm version](https://badge.fury.io/js/%40kolkov%2Fangular-editor.svg)](https://badge.fury.io/js/%40kolkov%2Fangular-editor)
 [![demo](https://img.shields.io/badge/demo-StackBlitz-blueviolet.svg)](https://stackblitz.com/edit/angular-editor-wysiwyg)
-[![Build Status](https://travis-ci.com/kolkov/angular-editor.svg?branch=master)](https://travis-ci.com/kolkov/angular-editor)
-[![npm](https://img.shields.io/npm/dm/@kolkov/angular-editor.svg)](https://www.npmjs.com/package/@kolkov/angular-editor)
-[![](https://data.jsdelivr.com/v1/package/npm/@kolkov/angular-editor/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@kolkov/angular-editor)
-[![Coverage Status](https://coveralls.io/repos/github/kolkov/angular-editor/badge.svg?branch=master)](https://coveralls.io/github/kolkov/angular-editor?branch=master)
-[![codecov](https://codecov.io/gh/kolkov/angular-editor/branch/master/graph/badge.svg)](https://codecov.io/gh/kolkov/angular-editor)
+[![Build Status](https://travis-ci.com/eugenemahota/angular-editor-fix-font-modal.svg?branch=master)](https://travis-ci.com/eugenemahota/angular-editor-fix-font-modal)
+[![npm](https://img.shields.io/npm/dm/@eugenemahota/angular-editor.svg)](https://www.npmjs.com/package/@eugenemahota/angular-editor)
+[![](https://data.jsdelivr.com/v1/package/npm/@eugenemahota/angular-editor/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@eugenemahota/angular-editor)
+[![Coverage Status](https://coveralls.io/repos/github/eugenemahota/angular-editor-fix-font-modal/badge.svg?branch=master)](https://coveralls.io/github/eugenemahota/angular-editor-fix-font-modal?branch=master)
+[![codecov](https://codecov.io/gh/eugenemahota/angular-editor-fix-font-modal/branch/master/graph/badge.svg)](https://codecov.io/gh/eugenemahota/angular-editor-fix-font-modal)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AndreyKolkov)
 
 A simple native WYSIWYG/Rich Text editor for Angular 6-13+
@@ -27,7 +27,7 @@ A simple native WYSIWYG/Rich Text editor for Angular 6-13+
 Install via [npm][npm] package manager 
 
 ```bash
-npm install @kolkov/angular-editor --save
+npm install @eugenemahota/angular-editor --save
 ```
 ### Versions
 
@@ -45,7 +45,7 @@ Import `angular-editor` module
 
 ```js
 import { HttpClientModule} from '@angular/common/http';
-import { AngularEditorModule } from '@kolkov/angular-editor';
+import { AngularEditorModule } from '@eugenemahota/angular-editor';
 
 @NgModule({
   imports: [ HttpClientModule, AngularEditorModule ]
@@ -74,7 +74,7 @@ if you using more than one editor on same page set `id` property
 where
 
 ```js
-import { AngularEditorConfig } from '@kolkov/angular-editor';
+import { AngularEditorConfig } from '@eugenemahota/angular-editor';
 
 
 editorConfig: AngularEditorConfig = {
@@ -240,15 +240,15 @@ The documentation for the AngularEditor is hosted at our website [AngularEditor]
 
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/kolkov/angular-editor/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/eugenemahota/angular-editor-fix-font-modal/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-Editor preferences are available in the [editor config](https://github.com/kolkov/angular-editor/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
+Editor preferences are available in the [editor config](https://github.com/eugenemahota/angular-editor-fix-font-modal/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
 
 ## Versioning
 
 For a transparency into our release cycle and in striving to maintain backward compatibility, AngularEditor is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
-See [the Releases section of our project](https://github.com/kolkov/angular-editor/releases) for changelogs for each release version.
+See [the Releases section of our project](https://github.com/eugenemahota/angular-editor-fix-font-modal/releases) for changelogs for each release version.
 
 ## Creators
 
@@ -260,6 +260,6 @@ See [the Releases section of our project](https://github.com/kolkov/angular-edit
 
 If you like my work and I save your time you can buy me a :beer: or :pizza: [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AndreyKolkov)
 
-[npm]: https://www.npmjs.com/package/@kolkov/angular-editor
+[npm]: https://www.npmjs.com/package/@eugenemahota/angular-editor
 [demo]: https://angular-editor-wysiwyg.stackblitz.io/
 [example]: https://stackblitz.com/edit/angular-editor-wysiwyg
